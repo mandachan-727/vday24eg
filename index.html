@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine's Day Letter</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  #envelope {
+    cursor: pointer;
+  }
+  #letter {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #ending-gif {
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div id="envelope" onclick="showLetter()">
+  <img src="letter-still.png" alt="envelope" width="100" height="100">
+</div>
+
+<div id="letter">
+  <img src="letter.gif" alt="letter" width="100" height="100">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
